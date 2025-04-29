@@ -1,12 +1,12 @@
 {
   "name": "pokemon-cards",
-  "homepage": "/pokemon_cards_react_",
+  "homepage": "https://vaibhavc1302.github.io/pokemon_cards_react_/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
